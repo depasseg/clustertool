@@ -1,17 +1,17 @@
-VIP: 192.168.10.100
-MASTER1IP: 192.168.10.110
-MASTER2IP: 192.168.10.120
-MASTER3IP: 192.168.10.130
+VIP: 10.242.147.251
+MASTER1IP: 10.242.147.102
+MASTER2IP: 10.242.147.130
+MASTER3IP: 10.242.147.150
 GATEWAY: 192.168.10.1
 METALLB:
-    RANGE: 192.168.10.230-192.168.10.250
+    RANGE: 10.242.147.230-10.242.147.250
 Blocky:
-    IP: 192.168.10.230
-    k8s-gateway-domain: mydomain.com
+    IP: 10.242.147.249
+    k8s-gateway-domain: depasse.local
 TRAEFIK:
-    IP: 192.168.10.231
+    IP: 10.242.147.250
 RANCHER:
-    HOST: rancher.mydomain.com
+    HOST: rancher1.depasse.local
 GITHUB_TOKEN: <your-token>
 GITHUB_USER: <your-username>
 GITHUB_REPOSITORY: <your-repository-name>
