@@ -121,7 +121,7 @@ DO NOT use a GIT folder checked-out on windows, on the WSL. Ensure you git-clone
 ## Preparations
 
 - Create a Github Private access token with wide access to your repositories
-- Fork the repo here, to your own github account: `https://github.com/truecharts/project-talos`
+- Fork the repo here, to your own github account: `https://github.com/truecharts/clustertool`
 - Ensure your newly created clone(!) of the template repository is checked-out using GIT and you've cd'ed into this folder.
 - edit `talenv.yaml` and set the settings as you want them
 - edit `talconfig.yaml` and edit it to suit your cluster. We advice to keep the "worker" commented out, till your "controlplane" nodes are setup.
