@@ -105,6 +105,7 @@ DO NOT use a GIT folder checked-out on windows, on the WSL. Ensure you git-clone
 - Bash
 - Python3
 - PIP3
+- jq
 
 **Other Dependencies**
 
